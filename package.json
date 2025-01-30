@@ -1,0 +1,60 @@
+{
+  "name": "kush-ai",
+  "version": "1.0.0",
+  "description": "Kush AI is an AI-powered agent that automatically generates and publishes high-quality, engaging content on Hashnode. It selects trending topics, writes detailed articles, and fetches relevant cover images, saving time for bloggers and developers. Integrated with Hashnode, it automates the posting process while optimizing content for SEO, ensuring a consistent flow of fresh and relevant blog posts.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "kush": "tsc && node  --no-warnings  build/index.js",
+    "dev": "tsc && nodemon build/index.js",
+    "ai": "tsc && node build/publisher.js",
+    "genkey": "node key/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-patrick-chuks/Kush-ai.git"
+  },
+  "author": "David Patrick <pd3072894@gmail.com> (https://www.davidtsx.vercel.app/)",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://buymeacoffee.com/davidpatrickchuks"
+    }
+  ],
+  "keywords": [
+    "hashnode",
+    "gpt",
+    "llm",
+    "post",
+    "gemini",
+    "graphql",
+    "api",
+    "generative",
+    "ai",
+    "hashnode",
+    "kush-ai"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/david-patrick-chuks/Kush-ai/issues"
+  },
+  "homepage": "https://github.com/david-patrick-chuks/Kush-ai#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
+    "chalk": "^4.1.2",
+    "cron": "^3.5.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^22.12.0",
+    "boxen": "^8.0.1",
+    "figlet": "^1.8.0",
+    "ora": "^8.1.1",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
