@@ -8,7 +8,7 @@ KUSH is an AI-powered blogging agent that automatically posts content on **Hashn
 - **Multi-Source Training**: KUSH learns from PDFs, documents, audio files, YouTube videos, and live system prompts.
 - **High-Speed Content Generation**: Generates over **500 blog posts per day**.
 
-## 🚀 How It Works
+## 🚀 How It Works [--upcoming features--]
 1. **Train KUSH**
    - Upload your portfolio link or website.
    - Provide documents (PDFs, text files, etc.).
